@@ -1,0 +1,95 @@
+{
+	// v.0.9 (osx-oct19)
+
+	// Tabs over spaces!
+	// The number of spaces a tab is equal to.
+	"editor.tabSize": 4,
+	// Insert spaces when pressing Tab.
+	"editor.insertSpaces": false,
+	// When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+	"editor.detectIndentation": false,
+	// more
+	"dailyNotes.filePath": "/Users/matthiasstarte/OneDrive/ryte-documentation/daily-notes.md",
+	"editor.minimap.enabled": false,
+	"breadcrumbs.enabled": false,
+	"workbench.activityBar.visible": true,
+	"editor.renderWhitespace": "none",
+	"editor.renderControlCharacters": false,
+	"window.zoomLevel": 0,
+	// Intellisense / Emmet
+	"editor.quickSuggestions": {
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
+	// Controls the delay in ms after which quick suggestions will show up.
+	"editor.quickSuggestionsDelay": 2,
+	"emmet.showSuggestionsAsSnippets": true,
+	"emmet.includeLanguages": {
+		"markdown": "html"
+	},
+	"emmet.triggerExpansionOnTab": true,
+	"markdown-pdf.margin.left": "2cm",
+	//  "markdown-pdf.styles": [
+	//      "~/settings/mathi-markdown-pdf.css"
+	//    ],
+	"markdown-pdf.highlightStyle": "atom-one-light.css",
+	"markdownAutoTOC.maximumHeadingLevel": 6,
+	"terminal.integrated.cursorStyle": "underline",
+	"terminal.integrated.cursorBlinking": true,
+	"terminal.integrated.scrollback": 5000,
+	"workbench.colorCustomizations": {
+		"terminal.foreground": "#f8f8f2",
+		"terminal.background": "#11121b",
+	},
+	"terminal.integrated.shell.osx": "/bin/bash",
+	"diffEditor.ignoreTrimWhitespace": true,
+	"git.autofetch": true,
+	"workbench.sideBar.location": "left",
+	"editor.wordWrap": "on",
+	"explorer.confirmDragAndDrop": false,
+	"workbench.iconTheme": "city-lights-icons-vsc-light",
+	"workbench.colorTheme": "Webstorm IntelliJ Darcula Theme",
+	// spell right plugin
+	"spellright.language": [
+		"en",
+		"de"
+	],
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": "text.notes.info",
+				"settings": {
+					"foreground": "#17a2b8",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "text.notes.success",
+				"settings": {
+					"foreground": "#28a745",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "text.notes.warning",
+				"settings": {
+					"foreground": "#ffc107",
+					"fontStyle": "bold"
+				}
+			},
+			{
+				"scope": "text.notes.danger",
+				"settings": {
+					"foreground": "#dc3545",
+					"fontStyle": "bold"
+				}
+			}
+		]
+	},
+	"markdown.extension.toc.unorderedList.marker": "+",
+	"terminal.integrated.fontWeightBold": "100",
+	"terminal.integrated.fontFamily": "Fira Code",
+	"terminal.integrated.drawBoldTextInBrightColors": true,
+	"terminal.integrated.rendererType": "dom",
+}

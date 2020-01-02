@@ -1,0 +1,73 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "alt+right",
+		"command": "cursorWordEndRight",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+left",
+		"command": "cursorWordStartLeft",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "cmd+k t",
+		"command": "workbench.action.terminal.new"
+	},
+	{
+		"key": "F11",
+		"command": "type",
+		"args": {
+			"text": "```\n"
+		},
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "Alt+c",
+		"command": "type",
+		"args": {
+			"text": "`"
+		},
+		"when": "editorTextFocus"
+	},
+	//	{
+	//		"key": "F10",
+	//		"command": "type",
+	//		"args": {
+	//			"text": "`"
+	//		},
+	//		"when": "editorTextFocus"
+	//	},
+	//	{
+	//		"key": "F12",
+	//		"command": "type",
+	//		"args": {
+	//			"text": "```bash\n"
+	//		},
+	//		"when": "editorTextFocus"
+	//	}
+	// This section is taken from above and now controlled by a snippet named "fenced-code" and "inline-code" under snippets in vscode
+	{
+		"key": "F12",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"name": "fenced-code"
+		},
+		"when": "editorTextFocus"
+	},
+
+	{
+		"key": "F10",
+		"command": "editor.action.insertSnippet",
+		"args": {
+			"name": "inline-code"
+		},
+		"when": "editorTextFocus"
+	},
+
+	// daily notes disabled because of ~ symbol on alt+n 
+	{
+		"key": "alt+n",
+		"command": "-extension.open"
+	},
+]

@@ -1,0 +1,12 @@
+{
+	// v0.1 (osx-oct19)
+
+	"project template": {
+		"scope": "markdown",
+		"prefix": "#proj,/proj",
+		"body": [
+			"## Challenge\n\n$TM_SELECTED_TEXT${1:*Describe the problem here...*}\n\n## Goal\n\n$TM_SELECTED_TEXT${2:What do we want?}\n\n## Solutions\n\n## Roadmap\n\n### Milestones"
+		],
+		"description": "create doc structure for projects"
+	}
+}

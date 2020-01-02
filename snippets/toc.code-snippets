@@ -1,0 +1,21 @@
+{
+	// v0.3 (osx-oct19)
+
+	"omit in toc": {
+		"scope": "markdown",
+		"prefix": "#omit,/omit",
+		"body": [
+			"<!-- omit in toc -->"
+		],
+		"description": "don't show in toc"
+	},
+
+	"toc template": {
+		"scope": "markdown",
+		"prefix": "#index,/index",
+		"body": [
+			"## Index <!-- omit in toc -->\n\n$TM_SELECTED_TEXT${1:*Press F1 and type toc*}\n\n## $TM_SELECTED_TEXT${2:Head2}"
+		],
+		"description": "create ## Index and TOC with !omit"
+	}
+}

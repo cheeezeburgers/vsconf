@@ -1,0 +1,18 @@
+{
+
+	// v0.2 (osx-oct19)
+
+	"Todo list": {
+		"scope": "markdown",
+		"prefix": "#todo,/todo",
+		"body": "+ [$TM_SELECTED_TEXT${2:x or space}] $TM_SELECTED_TEXT${1:typehere}\n",
+		"description": "add toto list point unchecked"
+	},
+
+	"Todo list done": {
+		"scope": "markdown",
+		"prefix": "#done,/done",
+		"body": "+ [x] ",
+		"description": "add done point to list"
+	}
+}
